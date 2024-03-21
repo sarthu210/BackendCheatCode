@@ -1,0 +1,15 @@
+my-project/
+-- client/
+---- index.js    <-- entry point for client JavaScript
+-- node_modules/
+-- public/
+--db/ 
+----index.js  <-- entry point for database connection 
+--apiRoutes/
+----index.js   <-- db setup 
+----users.js   <-- db table user
+----blogposts.js. <-- db table blogposts
+-- server/
+---- index.js    <-- entry point for server 
+-- .gitignore    <-- files etc. to ignore when you make a commit
+-- package.json  <-- stores the names and versions for all the installed packages
