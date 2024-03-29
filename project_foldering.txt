@@ -13,3 +13,28 @@ my-project/
 ---- index.js    <-- entry point for server 
 -- .gitignore    <-- files etc. to ignore when you make a commit
 -- package.json  <-- stores the names and versions for all the installed packages
+
+------------------------------------------------------------------------------------- Standard foddering ----------------------------------------------------------------------------------------------------------
+
+project/
+│
+├── client/                  # React frontend
+│   ├── public/              # Public assets
+│   └── src/                 # Source code
+│       ├── components/      # Reusable components
+│       ├── views/           # Higher-level components or page layouts
+│       ├── services/        # Services for API communication
+│       ├── assets/          # Assets such as images, stylesheets
+│       ├── App.js           # Main component
+│       └── index.js         # Entry point
+│
+└── server/                  # Express.js backend
+    ├── controllers/         # Route handlers
+    ├── models/              # Database models
+    ├── routes/              # Route definitions
+    ├── middleware/          # Custom middleware
+    ├── config/              # Configuration files
+    ├── services/            # Business logic services
+    ├── utils/               # Utility functions
+    ├── database/            # Database setup and migrations
+    └── index.js             # Entry point
